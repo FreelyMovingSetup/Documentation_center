@@ -1,5 +1,3 @@
-# Documentation_center
-
 ## **Commands** and **user manuals** :
 Here are stored all data relative to the usage of the different blocks of the setup, the options to tune them and what they do.
 
