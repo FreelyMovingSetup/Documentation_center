@@ -1,7 +1,7 @@
 ## **Commands** and **user manuals** :
-Here are stored all data relative to the usage of the different blocks of the setup, the options to tune them and what they do.
 
 ### [Gui and setup usage](https://github.com/FreelyMovingSetup/Frontend_Documentation)
+Documents all data relative to the usage of the different blocks of the setup, the options to tune them and what they do.
 
 ## Maintenance and fabrication
 
