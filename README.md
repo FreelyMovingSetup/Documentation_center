@@ -30,4 +30,4 @@ Some files related to surgeries more specific to the S1 implant are available in
 All files related to the implant are available in the repository [Implant_3D](https://github.com/FreelyMovingSetup/Implant_3D).
 This includes head fixation stuff, files sent for production of metal parts at Sculpteo, mouse (body, stull, atlases, brain), and parts of the implant per se (implant, hats, nuts & rings & models of both tips of the fiber-bundle). Some parts relative to staining, trackers and imu boards are available)
 
-Similarly, all 3D parts related to the Morj are located in [Morj_3D](Morj_3D)
+Similarly, all 3D parts related to the Morj are located in [Morj_3D](https://github.com/FreelyMovingSetup/Morj_3D) and files relative to Maze 3D models are in [Maze_3D](https://github.com/FreelyMovingSetup/Maze_3D).
