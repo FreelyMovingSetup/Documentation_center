@@ -1,4 +1,4 @@
-# [Interactive version](https://github.com/FreelyMovingSetup/Documentation_center/blob/main/docs/index.md)
+# [Interactive version](https://freelymovingsetup.github.io/Documentation_center/)
 
 ## **Commands** and **user manuals** :
 
