@@ -1,0 +1,67 @@
+# Project information
+site_name: Maze Documentation
+site_description: 'Maze documentation'
+site_author: 'Timothe'
+site_url: 'https://FreelyMovingSetup.github.io/Documentation_center'
+
+# Copyright
+copyright: '&copy; 2022 Shulz Lab'
+
+# Repository
+repo_name: 'Documentation_center'
+repo_url: 'https://github.com/FreelyMovingSetup/Documentation_center'
+edit_uri: ''
+
+use_directory_urls: false
+
+docs_dir: '.'
+
+theme: 
+    name : material
+    palette:
+      - scheme: default
+        toggle:
+          icon: material/toggle-switch-off-outline
+          name: Switch to dark mode
+      - scheme: slate
+        primary: deep orange
+        accent: teal
+        toggle:
+          icon: material/toggle-switch
+          name: Switch to light mode
+        
+    features:
+        - navigation.tabs
+        - navigation.instant
+        - navigation.top
+    highlightjs : true
+    hljs_languages :
+        - python
+        - c++
+        - c
+        - html
+        - css
+        - cmd
+
+plugins:
+    - search      
+   
+markdown_extensions:
+    - pymdownx.keys
+    - pymdownx.superfences
+    - pymdownx.tabbed
+    - pymdownx.details
+    - pymdownx.tasklist:
+        custom_checkbox: true
+    - pymdownx.emoji:
+        emoji_index: !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:materialx.emoji.to_svg
+    - admonition
+    - attr_list
+    - def_list
+ 
+nav:
+    - Home: README.md
+    #- Workshop:
+    #    - 'Devices': 'Branded_hardware.md'
+    #    - 'Organising workspace': 'Organizing_stuff.md'
