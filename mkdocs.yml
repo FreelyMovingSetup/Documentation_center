@@ -63,4 +63,4 @@ markdown_extensions:
 nav:
     - Home: index.md
     - Code:
-        - 'Maze Modules': 'code\maze_modules.md'
+        - 'Maze Modules': 'code/maze_modules.md'
