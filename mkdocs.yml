@@ -64,4 +64,6 @@ nav:
     - Home: index.md
     - Code:
         - Maze Modules: 
+            - 'Modulex': 'code/maze_modules/modulex.md'
+            - 'Servo': 'code/maze_modules/servos.md'
             - 'Waiter': 'code/maze_modules/waiters.md'
