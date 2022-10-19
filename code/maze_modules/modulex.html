@@ -12,21 +12,21 @@
         <meta name="author" content="Timothe">
       
       
-        <link rel="canonical" href="https://FreelyMovingSetup.github.io/Documentation_center/code/maze_modules.html">
+        <link rel="canonical" href="https://FreelyMovingSetup.github.io/Documentation_center/code/maze_modules/modulex.html">
       
-      <link rel="icon" href="../assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.3.1, mkdocs-material-8.2.11">
     
     
       
-        <title>Maze Modules - Maze Documentation</title>
+        <title>Modulex - Maze Documentation</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.8c5ef100.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.8c5ef100.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.9647289d.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.9647289d.min.css">
         
       
     
@@ -41,7 +41,7 @@
       
     
     
-    <script>__md_scope=new URL("..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -69,7 +69,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#waiter" class="md-skip">
+        <a href="#example-usage" class="md-skip">
           Skip to content
         </a>
       
@@ -83,7 +83,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../index.html" title="Maze Documentation" class="md-header__button md-logo" aria-label="Maze Documentation" data-md-component="logo">
+    <a href="../../index.html" title="Maze Documentation" class="md-header__button md-logo" aria-label="Maze Documentation" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -102,7 +102,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Maze Modules
+              Modulex
             
           </span>
         </div>
@@ -199,7 +199,7 @@
 
 
   <li class="md-tabs__item">
-    <a href="../index.html" class="md-tabs__link">
+    <a href="../../index.html" class="md-tabs__link">
       Home
     </a>
   </li>
@@ -208,18 +208,23 @@
         
   
   
-    
-  
 
+
+  
+  
+  
+    
 
   
   
   
     <li class="md-tabs__item">
-      <a href="maze_modules.html" class="md-tabs__link md-tabs__link--active">
+      <a href="waiters.html" class="md-tabs__link">
         Code
       </a>
     </li>
+  
+
   
 
       
@@ -244,7 +249,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../index.html" title="Maze Documentation" class="md-nav__button md-logo" aria-label="Maze Documentation" data-md-component="logo">
+    <a href="../../index.html" title="Maze Documentation" class="md-nav__button md-logo" aria-label="Maze Documentation" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -275,7 +280,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../index.html" class="md-nav__link">
+      <a href="../../index.html" class="md-nav__link">
         Home
       </a>
     </li>
@@ -288,14 +293,12 @@
 
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
       
       
       
@@ -316,61 +319,44 @@
               
   
   
+  
     
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    <li class="md-nav__item md-nav__item--nested">
       
       
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1" type="checkbox" id="__nav_2_1" >
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_1">
           Maze Modules
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <a href="maze_modules.html" class="md-nav__link md-nav__link--active">
-        Maze Modules
+      <nav class="md-nav" aria-label="Maze Modules" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          Maze Modules
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="waiters.html" class="md-nav__link">
+        Waiter
       </a>
-      
-        
+    </li>
+  
 
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#waiter" class="md-nav__link">
-    Waiter
-  </a>
-  
-    <nav class="md-nav" aria-label="Waiter">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#constructor" class="md-nav__link">
-    Constructor :
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
+            
+          
+        </ul>
+      </nav>
     </li>
   
 
@@ -407,22 +393,16 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#waiter" class="md-nav__link">
-    Waiter
-  </a>
-  
-    <nav class="md-nav" aria-label="Waiter">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#constructor" class="md-nav__link">
-    Constructor :
+  <a href="#example-usage" class="md-nav__link">
+    Example Usage :
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
+      
+        <li class="md-nav__item">
+  <a href="#constructor" class="md-nav__link">
+    Constructor :
+  </a>
   
 </li>
       
@@ -440,28 +420,22 @@
                 
 
 
-  <h1>Maze Modules</h1>
+  <h1>Modulex</h1>
 
-<h2 id="waiter">Waiter</h2>
-<p><em>Example :</em></p>
-<details class="note" open="open"><summary>Note : static</summary><p>Static is an argument to create a variable that will remain the same between function calls.
-Static var declaration is run only once so we don't mind putting it inside the "root" of the loop function.</p>
-</details>
-<div class="highlight"><pre><span></span><code><span class="c1">// loop run code repeatedly</span>
-<span class="kt">void</span><span class="w"> </span><span class="nf">loop</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
-
-<span class="w">  </span><span class="k">static</span><span class="w"> </span><span class="n">waiter</span><span class="w"> </span><span class="n">memo</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">waiter</span><span class="p">(</span><span class="mi">1000</span><span class="p">,</span><span class="w"> </span><span class="n">waiter</span><span class="o">::</span><span class="n">millisec</span><span class="p">,</span><span class="w"> </span><span class="nb">true</span><span class="p">);</span><span class="w"></span>
-
-<span class="w">  </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">memo</span><span class="p">()){</span><span class="w"> </span><span class="c1">// check if a memo is </span>
-<span class="w">    </span><span class="n">memo</span><span class="p">.</span><span class="n">wait</span><span class="p">(</span><span class="mi">1000</span><span class="p">);</span><span class="w"></span>
-<span class="w">    </span><span class="n">Serial</span><span class="p">.</span><span class="n">println</span><span class="p">(</span><span class="s">&quot;DueTime&quot;</span><span class="p">);</span><span class="w"></span>
-<span class="w">  </span><span class="p">}</span><span class="w"></span>
-<span class="p">}</span><span class="w"></span>
+<div class="admonition info">
+<p class="admonition-title">Purpose</p>
+<p>This class is the base class for any module. It principally comprises attributes and methods to access modules by name from json commands (see <code>Maze API</code> section of the documentation). It also allows basic function that can be usefull and common to any module, sensor or actuator alike, such as deactivation / reactivation of the module. </p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This class is not meant to be used alone, but to de derived to actually do something usefull.</p>
+</div>
+<h2 id="example-usage">Example Usage :</h2>
+<div class="highlight"><pre><span></span><code><span class="n">modulex</span><span class="w"> </span><span class="n">module_object</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">modulex</span><span class="p">(</span><span class="s">&quot;MyModuleName&quot;</span><span class="p">)</span><span class="w"></span>
 </code></pre></div>
-<h3 id="constructor">Constructor :</h3>
-<div class="highlight"><pre><span></span><code><span class="n">waiter</span><span class="w"> </span><span class="n">waiter_object</span><span class="p">;</span><span class="w"></span>
+<h2 id="constructor">Constructor :</h2>
+<div class="highlight"><pre><span></span><code><span class="n">modulex</span><span class="w"> </span><span class="n">module_object</span><span class="p">;</span><span class="w"></span>
 </code></pre></div>
-<p>Called </p>
 
               
             </article>
@@ -476,26 +450,6 @@ Static var declaration is run only once so we don't mind putting it inside the "
       </main>
       
         <footer class="md-footer">
-  
-    <nav class="md-footer__inner md-grid" aria-label="Footer">
-      
-        
-        <a href="../index.html" class="md-footer__link md-footer__link--prev" aria-label="Previous: Home" rel="prev">
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
-          </div>
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Previous
-              </span>
-              Home
-            </div>
-          </div>
-        </a>
-      
-      
-    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -521,10 +475,10 @@ Static var declaration is run only once so we don't mind putting it inside the "
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.instant", "navigation.top"], "search": "../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.instant", "navigation.top"], "search": "../../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.748e2769.min.js"></script>
+      <script src="../../assets/javascripts/bundle.748e2769.min.js"></script>
       
     
   </body>

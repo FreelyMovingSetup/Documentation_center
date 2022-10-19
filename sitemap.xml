@@ -6,7 +6,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://FreelyMovingSetup.github.io/Documentation_center/code/maze_modules.html</loc>
+         <loc>https://FreelyMovingSetup.github.io/Documentation_center/code/maze_modules/modulex.html</loc>
+         <lastmod>2022-10-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://FreelyMovingSetup.github.io/Documentation_center/code/maze_modules/servos.html</loc>
+         <lastmod>2022-10-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://FreelyMovingSetup.github.io/Documentation_center/code/maze_modules/waiters.html</loc>
          <lastmod>2022-10-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
