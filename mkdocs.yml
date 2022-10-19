@@ -62,6 +62,5 @@ markdown_extensions:
  
 nav:
     - Home: index.md
-    #- Workshop:
-    #    - 'Devices': 'Branded_hardware.md'
-    #    - 'Organising workspace': 'Organizing_stuff.md'
+    - Code:
+        - 'Maze Modules': 'code\maze_modules.md'
