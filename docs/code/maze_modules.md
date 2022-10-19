@@ -2,9 +2,9 @@
 
 *Example :*
 
-???+ note "static"
-   Static is an argument to create a variable that will remain the same between function calls.
-   Static var declaration is run only once so we don't mind putting it inside the "root" of the loop function.
+???+ note "Note : static"
+    Static is an argument to create a variable that will remain the same between function calls.
+    Static var declaration is run only once so we don't mind putting it inside the "root" of the loop function.
 
 ```c++
 // loop run code repeatedly
