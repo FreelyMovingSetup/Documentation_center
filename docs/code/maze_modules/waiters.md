@@ -22,10 +22,8 @@ void loop() {
 
 ## Constructor :
 
-
-
 ```c++
 waiter waiter_object;
 ```
 
-Called 
+Called
