@@ -3,6 +3,14 @@
 ### [Gui and setup usage](https://github.com/FreelyMovingSetup/Frontend_Documentation)
 Documents all data relative to the usage of the different blocks of the setup, the options to tune them and what they do.
 
+## Software programmation
+
+### [Maze modules](./code/maze_modules/modulex.md)
+
+### Morj code
+
+### GUI code
+
 ## Maintenance and fabrication
 
 ### [Maze](https://github.com/FreelyMovingSetup/Maze_Documentation)

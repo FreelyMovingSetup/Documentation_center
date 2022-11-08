@@ -62,6 +62,8 @@ markdown_extensions:
  
 nav:
     - Home: index.md
+    - API :
+        - MORJ: 'api/morj_api/morj_api.md'
     - Code:
         - Maze Modules: 
             - 'Modulex': 'code/maze_modules/modulex.md'
