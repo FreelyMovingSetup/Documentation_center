@@ -5,6 +5,7 @@
 ```json
 {info:1}
 ```
+
 !!! info "type"
     argument value type  : *ignored*
 
@@ -27,7 +28,7 @@ Returns information about the program file and date of the code running on the d
 
 <u>Output :</u>
 
-Return an handshake acceptation under key`accept_handshake` as boolean with value True.
+Return an handshake acceptation under key `accept_handshake` as boolean with value True.
 
 
 
