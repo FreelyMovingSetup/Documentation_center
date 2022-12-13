@@ -244,7 +244,7 @@ DEPRECATED : DO NOT USE. (Was used to send absolute command (from the 0 of the m
 {motor:{get_pos:1}}
 ```
 
-DEPRECATED : DO NOT USE. (send absolute command (from the 0 of the motor) usually creates dangerous situations !!!!)
+Get the (absolute) motor position in steps. 0 Is the position of the real OREF. (other OREFS are at increments of 9600 steps of the 0)
 
 ### stop :
 
